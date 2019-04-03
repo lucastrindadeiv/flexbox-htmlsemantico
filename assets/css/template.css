@@ -1,12 +1,14 @@
 * {     /*todos os elementos */
-    font-family: 'Raleway', sans-serif;
+
+	font-family: 'Alegreya Sans', sans-serif;
 
 }
 
 
 body {
     margin: 0;
-    padding: 0;
+	padding: 0;
+	padding-bottom: 300px; /*espaçamento na página */
 }
 
 header {
@@ -143,3 +145,53 @@ nav .active a,
 	padding-bottom: 10px;	
 	font-size: 12px;
 }
+
+#geral {
+	display: flex;
+	justify-content: center;
+}
+
+#geral section {
+	flex: 2;
+}
+
+#geral aside {
+	flex: 1;
+}
+
+.widget_title {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.widget_title_text {
+	color: #000000;
+	font-size: 21px;
+	font-weight: bold;
+}
+
+.widget_title_bar { /*barra embaixo do título */
+	width: 50px;
+	height: 2px;
+	background-color: #36a9e1;
+	margin-top: 10px; /*espaço entre a barra e o item acima */
+}
+
+.quad {
+	display: flex; /* deixa os quadrados um do lado do outro */
+	flex-direction: row;
+	flex-wrap: wrap; /* separa os quadrados */
+	justify-content: space-between; /*espaço entre os quadrados*/
+}
+
+.quad div {
+	width: 150px;
+	height: 150px;
+	background-color: #39aae1;
+	margin-bottom: 28px;
+}
+
+.make_text {
+	font-family: 'Cabin', sans-serif;
+}
+
